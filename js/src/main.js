@@ -50,8 +50,8 @@ let gravity = 0.1;
 let gameScore = 0;
 
 function setup() {
-   bg = loadImage('../img/background-image.jpg');
-   title = loadImage('../img/gametitle-2.png');
+   bg = loadImage('./img/background-image.jpg');
+   title = loadImage('/img/gametitle-2.png');
    newGame3 = loadImage('../img/icons/settings-icon.png');
    newGame2 = loadImage('../img/icons/Icon_zen.png');
    newGame = loadImage('../img/icons/newgame.png');
